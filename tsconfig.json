@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "sourceMap": true,
+    "outDir": "lib",
+    "declaration": true
+  },
+  "include": [
+    "src",
+    "tsconfig.json",
+    "types"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

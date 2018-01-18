@@ -1,0 +1,28 @@
+{
+  "name": "torrent-stream-server",
+  "version": "0.1.0",
+  "description": "Library that allows you to create http server and streaming downloading content via torrent-stream",
+  "main": "lib/index",
+  "typings": "lib/index",
+  "scripts": {
+    "clean": "rm -rf ./lib",
+    "prebuild": "npm run clean",
+    "build": "./node_modules/.bin/tsc",
+    "preexamples/torrent-stream": "npm run build",
+    "examples/torrent-stream": "node ./lib/examples/torrent-stream",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "reefridge",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^9.3.0",
+    "@types/torrent-stream": "0.0.5",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "http-attach": "^1.0.0",
+    "mime": "^2.2.0",
+    "range-parser": "^1.2.0",
+    "torrent-stream": "^1.0.3"
+  }
+}
