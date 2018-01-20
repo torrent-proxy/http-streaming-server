@@ -1,6 +1,6 @@
 {
   "name": "http-streaming-server",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Library that allows you to create http server and streaming content via providers",
   "repository": {
     "type": "git",
