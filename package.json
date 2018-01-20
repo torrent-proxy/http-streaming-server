@@ -1,7 +1,11 @@
 {
-  "name": "torrent-stream-server",
+  "name": "http-streaming-server",
   "version": "0.1.0",
-  "description": "Library that allows you to create http server and streaming downloading content via torrent-stream",
+  "description": "Library that allows you to create http server and streaming content via providers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/torrent-proxy/http-streaming-server.git"
+  },
   "main": "lib/index",
   "typings": "lib/index",
   "scripts": {
