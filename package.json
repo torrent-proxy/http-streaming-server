@@ -6,8 +6,8 @@
     "type": "git",
     "url": "https://github.com/torrent-proxy/http-streaming-server.git"
   },
-  "main": "lib/index",
-  "typings": "lib/index",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
     "clean": "rm -rf ./lib",
     "prebuild": "npm run clean",
